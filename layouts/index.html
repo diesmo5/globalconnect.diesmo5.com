@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+<section class="">
+    <div
+      id="HomePageCarousel"
+      class="carousel slide carousel-fade"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        {{range $.Site.Data.carousel}}
+        <div class="carousel-item {{.toggle}}">
+          <div
+            style="background-image: url({{.carouselImg}}); background-position: center; background-size: cover; background-repeat: no-repeat; height: 100vh;"
+          >
+            <!-- <img src="{{.img}}" class="d-block w-100" alt="{{.alt}}" /> -->
+            <div
+              class="container text-white"
+              style="position: relative; top: 35%;"
+            >
+              <h5 class="font-weight-normal">What if you could...</h5>
+              <h1 class="font-weight-bold display-1 text-uppercase py-4">
+                {{.carouselText}}
+              </h1>
+            </div>
+          </div>
+        </div>
+        {{end}}
+      </div>
+    </div>
+</section>
+
+{{ range $.Site.Data.benefits }}
+<section id="{{.id}}" class="py-5">
+  <div class="py-5"></div>
+  <div class="container-fluid col-lg-8 col-md-10 col-12 py-5">
+    <div class="row py-5">
+      <div class="col-lg-6 col-12 py-5 m-auto">
+        <img src="{{.benefitsImg}}" alt="" class="w-100">
+      </div>
+      <div class="col-lg-6 col-12 py-5 m-auto">
+        <h2 class="display-3 font-weight-bold text-uppercase text-white">{{.benefitsTitle}}</h2>
+        <h4 class="font-weight-normal text-white">{{.benefitsText}}</h4>
+      </div>
+    </div>
+  </div>
+  <div class="py-5"></div>
+</section>
+{{ end }}
+
+<section id="banner" class="text-center py-5">
+  <div class="container py-5">
+    <h2 class="text-white font-weight-bold text-uppercase h1 pb-4">Join Our Global Connect</h2>
+    <a href="https://forms.gle/LaWdBsP2MJecSmMC8" target="_blank" class="btn btn-block btn-lg btn-outline-primary text-uppercase rounded-0 py-3 px-5">sign up now</a>
+  </div>
+</section>
+  
+
+{{ end }}
