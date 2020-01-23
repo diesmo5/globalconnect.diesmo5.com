@@ -12465,3 +12465,6 @@
     transition-duration: 0.6s;
   }
   
+  .text-small {
+    font-size: 10px;
+  }
