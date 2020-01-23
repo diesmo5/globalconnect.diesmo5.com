@@ -1,30 +1,30 @@
 5g:
   carouselImg: /assets/5g.jpg
-  carouselText: Change the education system
+  carouselText: Invent something disruptive
   toggle: active
 Bitcoin:
   carouselImg: /assets/bitcoin.jpg
-  carouselText: Stop global warming
+  carouselText: Impact millions of people
   toggle:
 Facebook:
   carouselImg: /assets/facebook.jpg
-  carouselText: Invent something disruptive
+  carouselText: Make the world more tolerant
   toggle:
 Obama:
   carouselImg: /assets/obama.jpg
-  carouselText: Help humans go to mars
+  carouselText: achieve world peace
   toggle:
 Smart City:
   carouselImg: /assets/smartcity.jpg
-  carouselText: Make the world more tolerant
+  carouselText: build something that lasts
   toggle:
 SpaceX:
   carouselImg: /assets/spacex.jpg
-  carouselText: Impact millions of people
+  carouselText:  Help humans go to mars 
   toggle:
 Sun:
   carouselImg: /assets/sun.jpg
-  carouselText: build something that lasts
+  carouselText: Stop global warming
   toggle:
 Tesla:
   carouselImg: /assets/tesla.jpg
@@ -32,5 +32,5 @@ Tesla:
   toggle:
 Dwight:
   carouselImg: /assets/dwight.jpg
-  carouselText: achieve world peace
+  carouselText: Change the education system 
   toggle:
